@@ -76,7 +76,7 @@ new #[Layout('layouts.guest')] class extends Component
                     <div class="mb-4">
                         <label class="text-xs font-bold text-blue-900 uppercase">Email</label>
                         <div class="relative">
-                            <input wire:model="form.email" type="email" class="form-input @error('form.email') border-red-500 @enderror" placeholder="nom@saemape.cd" required>
+                            <input wire:model="form.email" type="email" class="form-input @error('form.email') border-red-500 @enderror" placeholder="iroscar@saemape.cd" required>
                         </div>
                         @error('form.email') <p class="error-message">{{ $message }}</p> @enderror
                     </div>
