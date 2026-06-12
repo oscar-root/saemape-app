@@ -623,7 +623,7 @@ new #[Layout('layouts.guest')] class extends Component
             <!-- En-tête -->
             <div class="card-header">
                 <div class="logo-container">
-                    <img src="{{ asset('images/logo-cnss.png') }}" alt="CNSS Kamina">
+                    <img src="{{ asset('images/saemape.png') }}" alt="SAEMAPE">
                 </div>
                 <h2>Créer un compte</h2>
                 <p>Inscrivez-vous pour accéder à la plateforme</p>
@@ -664,7 +664,7 @@ new #[Layout('layouts.guest')] class extends Component
                             <input wire:model.live="email" id="email" 
                                    class="form-input @error('email') error @enderror @if(!empty($email) && !$errors->has('email')) valid @endif" 
                                    type="email" name="email" required autocomplete="username"
-                                   placeholder="prenom.nom@cnss.cd">
+                                   placeholder="vanessa@saemape.cd">
                         </div>
                         @error('email')
                             <div class="error-message">
@@ -792,7 +792,7 @@ new #[Layout('layouts.guest')] class extends Component
 
             <!-- Pied de page -->
             <div class="card-footer">
-                <p>CNSS Kamina • Direction Provinciale • Gestion des affectations</p>
+                <p>SAEMAPE H-L • Direction Provinciale • Gestion des associations minières</p>
             </div>
         </div>
         
